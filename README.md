@@ -1,1 +1,0 @@
-# openvino_sample_show
