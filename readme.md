@@ -1,3 +1,5 @@
+windows环境配置OpenVINO
+
 1.python中加载openvino
 把openvino安装目录 C:\Intel\openvino\python\python3.6 下的 openvino文件夹   
 粘贴到python安装目录下   C:\Python36\Lib\site-packages
@@ -16,10 +18,7 @@ inference_engine_samples_build_2017 文件夹
 cpu_extension = "C:\Users\kang\Documents\Intel\OpenVINO\inference_engine_samples_build_2017\intel64\Release\cpu_extension.dll"
 
 
-4.下载模型 road-segmentation-adas-0001 记录xml地址
-
-
-5.填写参数
+4.填写参数
 plugin_dir = ""    
 model_xml = ""   
 model_bin = "" 

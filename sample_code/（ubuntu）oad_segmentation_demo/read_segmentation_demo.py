@@ -4,11 +4,10 @@ import numpy as np
 import time
 import logging as log
 from openvino.inference_engine import IENetwork, IEPlugin
-
-model_xml = "C:/Users/kang/Downloads/openvino_sample_show/open_model_zoo/model_downloader/Transportation/segmentation/curbs/dldt/road-segmentation-adas-0001.xml"
-model_bin = "C:/Users/kang/Downloads/openvino_sample_show/open_model_zoo/model_downloader/Transportation/segmentation/curbs/dldt/road-segmentation-adas-0001.bin"
-plugin_dir = "C:/Intel/openvino/deployment_tools/inference_engine/bin/intel64/Release"
-cpu_extension = "C:/Users/kang/Documents/Intel/OpenVINO/inference_engine_samples_build_2017/intel64/Release/cpu_extension.dll"
+model_xml  = "/home/kang/open_model_zoo-2019/model_downloader/Transportation/segmentation/curbs/dldt/road-segmentation-adas-0001.xml"
+model_bin = "/home/kang/open_model_zoo-2019/model_downloader/Transportation/segmentation/curbs/dldt/road-segmentation-adas-0001.bin"
+plugin_dir = "/opt/intel/openvino/deployment_tools/inference_engine/lib/intel64"
+cpu_extension = "/home/kang/inference_engine_samples_build/intel64/Release/lib/libcpu_extension.so"
 
 
 def read_segmentation_demo():
@@ -46,7 +45,7 @@ def read_segmentation_demo():
     # Read and pre-process input image
     n, c, h, w = net.inputs[input_blob].shape
     del net
-    cap = cv2.VideoCapture("C:/Users/kang/Downloads/openvino_sample_show/material/read_segmentation_demo.mp4")
+    cap = cv2.VideoCapture("/home/kang/Downloads/openvino_sample_show-master/material/read_segmentation_demo.mp4")
 
     cur_request_id = 0
     next_request_id = 1
