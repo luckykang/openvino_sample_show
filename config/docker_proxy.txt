@@ -1,0 +1,32 @@
+1.docker proxy
+
+sudo mkdir /etc/docker/
+sudo touch /etc/docker/daemon.json
+sudo vim /etc/docker/daemon.json
+
+
+{
+  "registry-mirrors": [
+  	"https://docker.mirrors.ustc.edu.cn/",
+  	"https://hub-mirror.c.163.com",
+  	"https://registry.docker-cn.com",
+    	"https://dockerhub.azk8s.cn",
+    	"https://reg-mirror.qiniu.com",
+    	"https://registry.docker-cn.com"
+  ]
+}
+
+
+
+sudo systemctl daemon-reload
+ 
+sudo systemctl restart docker
+
+
+
+2.docker添加用户组：
+sudo groupadd docker
+ 
+sudo gpasswd -a  kang docker     #注销系统当前用户，再次登录
+
+cat /etc/group                   #检查是否添加到组

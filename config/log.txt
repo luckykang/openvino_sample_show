@@ -1,0 +1,10 @@
+1.关于log打包:
+
+cd /var/log/esb-cli/   # 把这个目录的log都打包
+ 
+sudo zip -r a.zip a    # 打包文件夹命令
+
+
+
+
+

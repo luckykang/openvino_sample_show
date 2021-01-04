@@ -1,0 +1,32 @@
+1.安装go
+wget https://dl.google.com/go/go1.13.9.linux-amd64.tar.gz
+
+tar xf go1.13.9.linux-amd64.tar.gz
+
+sudo mv go /usr/local/go-1.13
+
+cd /etc/profile.d/
+
+sudo touch Z99-go-1.13.sh    #Add a file 
+
+
+export GOROOT=/usr/local/go-1.13
+export PATH=$GOROOT/bin:$PATH
+
+
+注销并再次登录system
+
+which go   
+go version
+go env
+
+
+
+2.配置 GOPROXY 环境变量
+
+go env -w GO111MODULE=on
+
+三选一
+go env -w  GOPROXY=https://goproxy.io,direct
+go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
+go env -w  GOPROXY=https://goproxy.io,direct
