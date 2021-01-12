@@ -9,14 +9,11 @@ import (
 
 // 功能实现  必须为main函数
 func main()  {
-    //fmt.Print("nihao","go","lang")
-    //fmt.Println("hello","world","kang")
-
-
-    /*
+    fmt.Print("ni","hao","ya")
+    fmt.Println("hello","world","k")
+    fmt.Println(".......")
+    fmt.Print("hello golang")
     fmt.Println("hello golang")
-    fmt.Println("hello golang")
-    */
 
 // Print和Println区别：
 // 1.一次输入多个值的时候，Println中间有空格，Print没有
@@ -29,10 +26,10 @@ func main()  {
 
     //也可以用类型推导方式定义变量
     a := 10
-//  b := 20
-//  c := 30
-//  fmt.Printf("%v %v %v",a,b,c)
-    fmt.Printf("a=%v a的类型是%T",a,a)
+    b := 20
+    c := 30
+    fmt.Printf("%v %v\n %v",a,b,c)
+    //fmt.Printf("a=%v a的类型是%T",a,a)
 
 }
 
