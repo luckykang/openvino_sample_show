@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f20a9b7d-3329-4bfa-8a33-b41a357e5408" name="Default Changelist" comment="" />
+    <list default="true" id="f20a9b7d-3329-4bfa-8a33-b41a357e5408" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go_study/ch3/bianliang.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,7 @@
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -27,29 +31,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/go_study" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Python.face_detection_demo">
-    <configuration name="face_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build bianliang.go">
+    <configuration name="go build bianliang.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="openvino_sample_show" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sample_code/face_detection_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample_code/face_detection_demo/face_detection.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <working_directory value="$USER_HOME$/Desktop/go_study" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_study/ch3/bianliang.go" />
+      <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="face_detection_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -140,16 +135,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.face_detection_demo" />
-        <item itemvalue="Python.read_segmentation_demo" />
-        <item itemvalue="Python.face_detection" />
-        <item itemvalue="Python.face_emotions_demo (1)" />
-        <item itemvalue="Python.face_landmark" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Go Build.go build bianliang.go" />
+    </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -173,36 +163,6 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="677" y="295" key="FileChooserDialogImpl" timestamp="1593954014954">
-      <screen x="0" y="0" width="1792" height="1080" />
-    </state>
-    <state x="677" y="295" key="FileChooserDialogImpl/0.0.1792.1080@0.0.1792.1080" timestamp="1593954014954" />
-    <state width="1750" height="295" key="GridCell.Tab.0.bottom" timestamp="1593957990900">
-      <screen x="0" y="0" width="1792" height="1080" />
-    </state>
-    <state width="1750" height="295" key="GridCell.Tab.0.bottom/0.0.1792.1080@0.0.1792.1080" timestamp="1593957990900" />
-    <state width="1750" height="295" key="GridCell.Tab.0.center" timestamp="1593957990900">
-      <screen x="0" y="0" width="1792" height="1080" />
-    </state>
-    <state width="1750" height="295" key="GridCell.Tab.0.center/0.0.1792.1080@0.0.1792.1080" timestamp="1593957990900" />
-    <state width="1750" height="295" key="GridCell.Tab.0.left" timestamp="1593957990900">
-      <screen x="0" y="0" width="1792" height="1080" />
-    </state>
-    <state width="1750" height="295" key="GridCell.Tab.0.left/0.0.1792.1080@0.0.1792.1080" timestamp="1593957990900" />
-    <state width="1750" height="295" key="GridCell.Tab.0.right" timestamp="1593957990900">
-      <screen x="0" y="0" width="1792" height="1080" />
-    </state>
-    <state width="1750" height="295" key="GridCell.Tab.0.right/0.0.1792.1080@0.0.1792.1080" timestamp="1593957990900" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/openvino_sample_show$face_detection.coverage" NAME="face_detection Coverage Results" MODIFIED="1593954327784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample_code/face_detection_demo" />
-    <SUITE FILE_PATH="coverage/openvino_sample_show$face_emotions_demo__1_.coverage" NAME="face_emotions_demo (1) Coverage Results" MODIFIED="1593954253220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample_code/emotions_recognition_demo" />
-    <SUITE FILE_PATH="coverage/openvino_sample_show$face_emotions_demo.coverage" NAME="face_emotions_demo Coverage Results" MODIFIED="1593940989830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample_code" />
-    <SUITE FILE_PATH="coverage/openvino_sample_show$face_landmark.coverage" NAME="face_landmark Coverage Results" MODIFIED="1593948540422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample_code" />
-    <SUITE FILE_PATH="coverage/openvino_sample_show$face_detection_demo.coverage" NAME="face_detection_demo Coverage Results" MODIFIED="1593956064399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample_code" />
-    <SUITE FILE_PATH="coverage/openvino_sample_show$read_segmentation_demo.coverage" NAME="read_segmentation_demo Coverage Results" MODIFIED="1593954761019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sample_code/road_segmentation_demo" />
+    <option name="version" value="3" />
   </component>
 </project>
