@@ -57,7 +57,7 @@ func main() {
 	// b := 100 % 7
 	// fmt.Printf("距离放假有%v周零%v天", a, b)
 
-	/*
+	/*  7.位运算符
 		&  两位均为1才为1
 		|  两位有1个为1就是1
 		^  相异或  两位不一样则为1
@@ -74,5 +74,6 @@ func main() {
 	fmt.Println("a^b=", a^b)   // 01   值为1
 	fmt.Println("a<<b=", a<<b) //10000 值为16
 	fmt.Println("a>>b=",a>>c)  //01    值为1
+
 
 }
