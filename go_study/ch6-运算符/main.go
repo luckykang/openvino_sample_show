@@ -75,5 +75,7 @@ func main() {
 	fmt.Println("a<<b=", a<<b) //10000 值为16
 	fmt.Println("a>>b=",a>>c)  //01    值为1
 
+	
+	
 
 }
